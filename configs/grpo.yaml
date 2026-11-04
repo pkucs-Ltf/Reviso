@@ -1,0 +1,18 @@
+algorithm: grpo
+model_path: null
+output_dir: null
+runner: null
+reward:
+  quality_threshold: null
+  observation_budget: null  # Maximum tool calls after the shared global preview.
+  group_size: 8
+  alpha: 0.8
+  beta: 0.2
+  mu: 0.05
+  failure_reward: -1.0
+# Passed to the caller's external training adapter; not a turnkey cluster config.
+trainer:
+  learning_rate: 0.000001
+  kl_loss_coef: 0.005
+  norm_adv_by_std_in_grpo: true
+  freeze_vision_tower: true

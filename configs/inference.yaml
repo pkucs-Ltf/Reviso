@@ -1,0 +1,11 @@
+model_path: null
+adapter_path: null
+backend: null
+output_file: null
+device: cuda:0
+dtype: bfloat16
+# Generic public defaults, not a reproduction of an internal observation policy.
+max_turns: 12
+generation:
+  max_new_tokens: 4096
+  do_sample: false

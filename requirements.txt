@@ -1,0 +1,10 @@
+# Core SFT/inference dependencies. Use a CUDA-compatible PyTorch installation.
+# Dependency declarations are not an exported virtual environment.
+torch==2.10.0
+transformers==5.10.4
+peft==0.19.1
+accelerate>=1.9,<2
+safetensors>=0.5,<1
+PyYAML>=6,<7
+# GRPO: install the external trainer separately in its own environment.
+# Integration target: veRL 0.9.1. The trainer and tool runtime are not vendored.
