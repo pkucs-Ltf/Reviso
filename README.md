@@ -37,7 +37,8 @@ The core implementation covers three parts:
 2. [Inference](#inference)
 3. [SFT Training](#sft-training)
 4. [GRPO Training](#grpo-training)
-8. [License](#license)
+5. [Citation](#citation)
+6. [License](#license)
 
 <a id="installation"></a>
 ## ⚙️ Installation
@@ -131,7 +132,24 @@ This entry connects the local reward hooks to an external GRPO trainer. The runn
 
 
 
+<a id="citation"></a>
+## 🖊️ Citation
+
+If you find Reviso useful, please cite:
+
+```bibtex
+@misc{liu2026revisovisualevidencedeserves,
+      title={Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning},
+      author={Tengfei Liu and Yang Shi and Yuran Wang and Yuqi Tang and Yizhuo Jia and Zhuoran Zhang and Qixun Wang and Shujie Li and Xuanyu Zhu and Xinyu Liu and Minghui Guo and Shixuan Liu and Haotian Wang and Yuanxing Zhang and Pengfei Wan},
+      year={2026},
+      eprint={2611.03602},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.03602},
+}
+```
+
 <a id="license"></a>
 ## 📄 License
 
-A project license has not yet been added to this local release draft. License terms need to be settled before public publication.
+This project is licensed under the [Apache License 2.0](LICENSE).
