@@ -10,8 +10,7 @@
   <a href="#installation">Installation</a> |
   <a href="#inference">Inference</a> |
   <a href="#sft-training">SFT</a> |
-  <a href="#grpo-training">GRPO</a> |
-  <a href="https://huggingface.co/TengfeiLiuCoder/Reviso">Checkpoint</a>
+  <a href="#grpo-training">GRPO</a>
 </p>
 
 Reviso describes videos through an iterative observation and reasoning loop built on **Qwen3.5 9B**. It identifies what needs further inspection, requests observations through caller-provided tools, and combines the collected evidence into a final caption.
