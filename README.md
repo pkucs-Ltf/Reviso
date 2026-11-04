@@ -1,6 +1,11 @@
 # Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2611.03602"><img src="https://img.shields.io/badge/arXiv-2611.03602-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://huggingface.co/TengfeiLiuCoder/Reviso"><img src="https://img.shields.io/badge/HuggingFace-Model-yellow" alt="Hugging Face model"></a>
+</p>
+
+<p align="center">
   <a href="#overview">Overview</a> |
   <a href="#installation">Installation</a> |
   <a href="#inference">Inference</a> |
